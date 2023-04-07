@@ -1,0 +1,78 @@
+.container {
+  background-color: #f3f5f6;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  width: 900px;
+  padding: 40px 150px;
+  border: 1px solid rgb(156, 149, 149);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.loginContainer h1 {
+  text-align: center;
+}
+
+.loginContainer h3 {
+  text-align: center;
+  color: #a19a9f;
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.inputContainer {
+  margin-top: 20px;
+}
+
+.inputContainer label {
+  display: block;
+}
+
+.inputContainer input {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 18px 16px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 24px;
+}
+
+.checkboxContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxContainer label {
+  margin-left: 10px;
+  color: #a19a9f;
+}
+
+.checkboxContainer p {
+  font-size: 24px;
+  color: #009cea;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.buttonContainer button {
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 100px;
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -68,3 +68,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## React - Wookie Movies
+
+### Description
+
+You are the owner of a movie theater in **Thikkiiana City,** on the Wookiee homeworld of Kashyyyk. Your customers are bored with the never changing selection and are asking for something completely different - they want to see what's playing on Earth. Create a Web App for them.
+
+### Tasks
+
+- Implement your design using **React Components** and style them using **CSS3**
+- Create an login page and movies listing page as well as movie details page
+- Implement a mock authorization function which returns default token (`Wookie2019`)
+- Create protected route
+- Implement session management
+- Connect your application to the **Movie Database** at https://wookie.codesubmit.io/movies
+- For authentication pass the default token as "Authorization: Bearer Wookie2019" in header ideally through  
+  an interceptor
+- Parse the API response and display the results as outlined in the design. **Group movies by genres**.
+- You may use any Packages or UI frameworks of your choice.
+- You may use any state management library of your choice, if needed.
+
+### Evaluation Criteria
+
+- Design all three pages according to attached files using React Components
+- Use of SCSS in place of CSS (no inline style as well as try creating components
+  with as much props as you need)
+- Connect to API - Movies retrieved, JSON parsed, grouped by genres
+- Write test cases with your choice of framework
+
+#### Bonus
+
+- ES6 standards
+- Lint free code
+- Proper folder structures
+- Use of creative design to showcase movies list
+- Code coverage more than 95%
+
+### Useful Links
+
+[React Docs](https://reactjs.org/docs/context.html)
+
+[Online API Tester](https://reqbin.com/)
+
+### Flynava
+
+All the best and happy coding,
+
+The Flynava Team

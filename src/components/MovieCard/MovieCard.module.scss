@@ -1,0 +1,30 @@
+.cardContent {
+  padding: 6px !important;
+}
+
+.card {
+  cursor: pointer;
+  width: 190px;
+  height: 310px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.cardMedia {
+  height: 310px;
+}
+.cardContent {
+  padding: 0;
+}
+
+.card p {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  bottom: 0%;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,103 @@
+.movieGrid {
+  background-color: #1e212a;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+  height: 100%;
+}
+
+.breadCrumbContainer {
+  display: flex;
+}
+
+.breadCrumb {
+  font-size: 20px;
+  color: gray;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.activeBreadCrumb {
+  font-size: 20px;
+  color: #00acc2;
+  text-decoration: none;
+}
+
+.detailsContainer {
+  margin-top: 80px;
+  display: flex;
+}
+
+.card {
+  width: 210px;
+  height: 310px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+}
+
+.cardMedia {
+  height: 310px;
+}
+
+.detailsContainer h1 {
+  color: #00acc2;
+}
+
+.details {
+  max-width: 800px;
+  margin-left: 40px;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fbb829;
+}
+
+.rating span {
+  color: gray;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.length {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 30px;
+  display: flex;
+}
+
+.description {
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.row p {
+  margin-right: 150px;
+}
+
+.detailsRow p {
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+}
+
+.detailsRow span {
+  color: #00acc2;
+}
+
+.director {
+  color: gray !important;
+}
